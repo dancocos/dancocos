@@ -21,10 +21,10 @@
 title: Dan Cocos - Tech Leader
 email: dan@dancocos.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Dan Cocos - Fractional CTO, tech leader, entrepreneur. 
+  Dan Cocos - Fractional CTO, tech leader 
   Please feel free to email with potential opportunities.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://dancocos." # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  dancocos
 linkedin_username: DanCocos
 mastodon:

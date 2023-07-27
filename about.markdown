@@ -10,4 +10,4 @@ I specialize in guiding organizations and their important work on complex techni
 
 I have over 20 years experience leading software development teams working with a large variety of clients from the private sector (Concur, Travelocity, 3M) to the public sector (State Department, USAID, CDC, Census Bureau, Ministries of Health) to large NGOs (PSI, International Rescue Committee, WHO.)
 
-I've specialized with in Java, Python, PHP, MySQL, Postgres, and Linux, with an emphasis on AWS, GCP, and open source software. 
+I've specialized in Java, Python, PHP, MySQL, Postgres, and Linux, with an emphasis on AWS, GCP, and open source software. 
