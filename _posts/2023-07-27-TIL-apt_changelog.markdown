@@ -29,4 +29,4 @@ openssl (3.0.2-0ubuntu1.10) jammy-security; urgency=medium
 Much easier than trying to dig through the online sources there is also a `yum` version `yum-changelog`
 
 Stay safe out there and make sure to Lock Your Laptop
-![lock.jpeg](/images/lock.jpeg)
+![Lock Your Laptop](/images/lock.jpeg)
