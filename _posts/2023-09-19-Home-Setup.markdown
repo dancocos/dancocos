@@ -21,16 +21,16 @@ My primary computer is a [14" MacBook Pro](https://support.apple.com/kb/SP854?lo
 The other laptop in the setup is my $DAY_JOB Windows laptop, with a docking station, this all works reasonably well but pretty boring, to me at least, so I won't delve into details.
 
 
-I'm fully committed to the multiple monitor life, I'm not sure how people operate with them, my current setup has three of them.
+I'm fully committed to the multiple monitor life, I'm not sure how people operate without them, my current setup has three.
 
 ![Home Desk Setup](/images/home_desk.png)
 
 For the most part all of my monitors can and are swapped between the varying devices.
 
-One the left is an [ASUS PB287Q](https://www.asus.com/us/commercial-monitors/pb287q/), it's a 4k monitor I bought several years ago and it's still kickin'. It has a nice matte screen and it hooked up via a dock, more on that later.
+One the left is an [ASUS PB287Q](https://www.asus.com/us/commercial-monitors/pb287q/), it's a 4k monitor I bought several years ago and it's still kickin'. It has a nice matte screen and it's hooked up via a dock, more on that in a later post.
 
-The middle monitor is my most recent purchase a [Dell U2720Q](https://www.rtings.com/monitor/reviews/dell/ultrasharp-u2720q), it's definitely on the more expensive side, my primary motivation was have a monitor that I could plug my laptop into that would charge it. At one time my ultimate goal was to only need to plugin one USB-C cable to my laptop, I'm close but ultimately it wouldn't really work out with my setup anyway. It supports HDR which is nice and has a USB-C and USB-A port on the side that come in pretty handy. This monitor is used as the primary when I'm working, with the secondary on the right. When I'm doing personal stuff it's also the primary with the secondary on the left. When I'm relaxing and playing video games with the PS5 it's what I use. 
+The middle monitor is my most recent purchase a [Dell U2720Q](https://www.rtings.com/monitor/reviews/dell/ultrasharp-u2720q), it's definitely on the more expensive side, my primary motivation was to have a monitor that I could plug my laptop into that would charge it. My ultimate goal was to only need to plugin one USB-C cable to my laptop, I'm close but ultimately it wouldn't really work out with my setup anyway. The Dell supports HDR which is nice and has a USB-C and USB-A port on the side that come in pretty handy. This monitor is used as the primary when I'm working, with the secondary on the right. When I'm doing personal stuff it's also the primary with the secondary on the left. When I'm relaxing and playing video games with the PS5 it gets all the attention.  
 
-The one on the right is from [Monoprice MPCP28UHD](https://www.tomshardware.com/reviews/monoprice-uhd-matte-28-inch-monitor,4429.html) they don't list my specific model on their site anymore. This one only got added recently, it has a glossy display so it sat in the closet for a long time but with change in $DAY_JOB I pulled it out of storage and put it to work. The angle that it's positioned means that it doesn't catch a lot of glare from the window. 
+The one on the right is from [Monoprice MPCP28UHD](https://www.tomshardware.com/reviews/monoprice-uhd-matte-28-inch-monitor,4429.html) they don't list my specific model on their site anymore. This one only got added to my desk recently, it has a glossy display so it sat in the closet for a long time but with change in $DAY_JOB I pulled it out of storage and put it to work. The angle that it's positioned means that it doesn't catch a lot of glare from the window, on the right. 
 
-That's it for now, later chapters will include docking stations, sound mixers and various ancillary devices
+That's it for now, later chapters will include docking stations, sound mixers and various ancillary devices.
