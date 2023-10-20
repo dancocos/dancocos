@@ -23,7 +23,7 @@ in `tsdns`
 #!/bin/bash
 networksetup -setdnsservers Wi-Fi 100.69.187.53
 ```
-Don't forget to make sure the script are in your path and to mark them `chmod 744`
+Don't forget to make sure the scripts are in your path and to mark them `chmod 744`
 
 
 *I found out about the book from title of the amazing album by The Legendary Roots Crew of the same name here's a [review of "Things Fall Apart"](https://pitchfork.com/reviews/albums/22132-things-fall-apart/)
