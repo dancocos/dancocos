@@ -31,7 +31,6 @@ mastodon:
 - username: dancocos
   instance: discuss.systems
 
-
 # Build settings
 theme: minima
 plugins:
