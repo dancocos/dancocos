@@ -60,6 +60,8 @@ It's rare that one has to wait a few minutes for `ls` to show a result. Now you 
 
 The final step was to create labels in Gmail and then drag and drop the emails into Gmail via the Mail.app UI, this is part that takes the longest you can monitor the process with the Activity Window on Mac with `⌥ ⌘ 0`
 
-One last thing to note, is that until your first payment hits if you're logged in your newly created Google Workspace account things like YouTube and Google Voice will say they aren't setup or show you errors until you're out of the trial phase. 
+One last thing to note, is that until your first payment hits if you're logged in your newly created Google Workspace account things like YouTube and Google Voice will say they aren't setup or show you errors until you're out of the trial phase.
+
+ *Update*: You have to spend at least $30, I spent $30.01, paying early so I now have a credit for my first few months. After the pre-payment was made YouTube started working within 24 hours. To pre-pay Admin Console --> Billing --> Payment accounts --> Click on your account ID number --> Pay early (Put in $30.01)
 
 If I've misstated or missed anything please let me know. 
