@@ -11,17 +11,19 @@ This works well unless I'm out and about and on public wifi, especially if there
 
 ![Too Damn High Meme Guy with text "the number of clicks is too damn high!](/images/number-of-clicks-too-damn-high.png)
 
-Of course there is a way to script this so I created the following two scripts in  `~/bin`
+Of course there is a way to script this so I created the following two scripts in  `~/bin` the first line is for Wi-Fi the second is for LAN your interface names may vary.
 
-in `gendns`
+in `dns-gen`
 ```
 #!/bin/bash
-networksetup -setdnsservers Wi-Fi 1.1.1.1
+networksetup -setdnsservers Wi-Fi 1.1.1.1 1.0.0.1 2606:4700:4700::1111 2606:4700:4700::1001
+networksetup -setdnsservers "USB 10/100/1000 LAN" 1.1.1.1 1.0.0.1 2606:4700:4700::1111 2606:4700:4700::1001
 ```
-in `tsdns`
+in `dns-ts`
 ```
 #!/bin/bash
-networksetup -setdnsservers Wi-Fi 100.69.187.53
+networksetup -setdnsservers Wi-Fi 100.69.187.53 fd7a:115c:a1e0:ab12:4843:cd96:6245:b720
+networksetup -setdnsservers "USB 10/100/1000 LAN" 100.69.187.53 fd7a:115c:a1e0:ab12:4843:cd96:6245:b720
 ```
 Don't forget to make sure the scripts are in your path and to mark them `chmod 744`
 
