@@ -5,6 +5,8 @@ date:   2023-10-20 00:00:00 -0500
 categories: [TIL, macOS, sysadmin, security, DNS]
 ---
 
+## Note it doesn't have be this complicated [read here instead](/2024/10/20/Tailscale-and-Pi-hole-ad-blocking.html)
+
 I'm a big fan of [Tailscale](https://tailscale.com) and when I'm not at home I still like to use the [Pi-hole](https://pi-hole.net) I have setup at home to block ads and malicious sites. The way I manage this is to set my DNS server to the TS IP 100.69.187.53 for my Pi-Hole.
 
 This works well unless I'm out and about and on public wifi, especially if there is a captive portal, sometimes ["Things Fall Apart"*](https://en.wikipedia.org/wiki/Things_Fall_Apart) as the auth may need to use local DNS. You can solve this by --> Settings --> Wi-fi --> Details --> DNS (change the DNS) auth the portal and then change everything back. 
@@ -12,6 +14,8 @@ This works well unless I'm out and about and on public wifi, especially if there
 ![Too Damn High Meme Guy with text "the number of clicks is too damn high!](/images/number-of-clicks-too-damn-high.png)
 
 Of course there is a way to script this so I created the following two scripts in  `~/bin` the first line is for Wi-Fi the second is for LAN your interface names may vary.
+
+## Note it doesn't have be this complicated [read here instead](/2024/10/20/Tailscale-and-Pi-hole-ad-blocking.html) wherein you can just disable your TS VPN temporarily
 
 in `dns-gen`
 ```
@@ -27,6 +31,7 @@ networksetup -setdnsservers "USB 10/100/1000 LAN" 100.69.187.53 fd7a:115c:a1e0:a
 ```
 Don't forget to make sure the scripts are in your path and to mark them `chmod 744`
 
+## Note it doesn't have be this complicated read here instead wherein you can just disable your TS VPN temporarily
 
 *I found out about the book from title of the amazing album by The Legendary Roots Crew of the same name here's a [review of "Things Fall Apart"](https://pitchfork.com/reviews/albums/22132-things-fall-apart/)
 

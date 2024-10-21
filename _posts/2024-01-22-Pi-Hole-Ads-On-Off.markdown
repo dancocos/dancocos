@@ -4,6 +4,7 @@ title:  "Let Me See Some Ads Real Quick"
 date:   2024-01-22 00:00:00 -0500
 categories: [macOS, sysadmin, DNS, pi-hole, ads, hacks]
 ---
+## Note it doesn't have be this complicated [read here instead](/2024/10/20/Tailscale-and-Pi-hole-ad-blocking.html) wherein you can just disable your TS VPN temporarily
 
 When at home and out and about my laptop makes its DNS queries via a [Pi-Hole](https://pi-hole.net) at my house, routed via [Tailscale](https://tailscale.com) this means I rarely see any ads and my ad tracking profile is reduced. 
 
@@ -13,6 +14,8 @@ Sometimes you may want to turn on ads. The most common use cases for me are tryi
 
 
 After some searching it turns out you can hit an API endpoint to enable/disable ad blocking and as for authentication the `/etc/pihole/setupVars.conf` file contains a password you can pass. (Yes this comes with risks but I'm on my own private network and the call is made over https and even if it was compromised I'm not too worried about the threat coming from inside my house.)
+
+## Note it doesn't have be this complicated [read here instead](/2024/10/20/Tailscale-and-Pi-hole-ad-blocking.html) wherein you can just disable your TS VPN temporarily
 
 As such I created two scripts to enable/disable ads
 
