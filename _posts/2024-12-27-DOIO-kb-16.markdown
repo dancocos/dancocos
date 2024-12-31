@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "DOIO KB 16 aka Megalodon Triple Knob Macropad Setup and Review"
+date:   2024-12-27 00:00:00 -0500
+categories: [home, desk, setup, keyboards]
+---
+
+I was lucky enough to receive a [Megalodon Triple Knob Macropad](https://www.keebmonkey.com/products/megalodon-triple-knob-macro-pad?_pos=1&_psq=mega&_ss=e&_v=1.0) for Xmas from my brother in law. I was excited to set it up and start using it but information was more difficult to find than I had hoped and what I did find were mostly product reviews. Here is what I’ve learned from a day or two of using it with macOS.  There may be finer points that I missed so feel free to email me or comment on my post to give any advice or correct any errors. 
+
+I use [Karabiner Elements](https://karabiner-elements.pqrs.org) with my [Keychron K6](https://www.keychron.com/products/keychron-k6-wireless-mechanical-keyboard) and I’ve been happy with it so I was hoping to tack on to that and not need to run another app. All roads and the suggestion from the manufacturer lead to VIA. 
+
+![The Device in question](/images/kb_16.jpeg)
+
+
+#### Using VIA
+
+There are two ways to use VIA to configure your keyboard. You can use it in the browser [Use VIA](https://usevia.app/) or you can grab the release from [Github](https://github.com/the-via/releases/releases).
+
+The VIA app doesn’t run in the background like KE. It simply configures your device and going forward you no longer need to run the app, once I had this epiphany I was pleasantly surprised. The app just configures key mappings and macros for your HID profile for the device. This has some advantages, the main one being you can move it from machine to machine and not have to worry about installing the software on each machine and keeping the configs up to date everywhere since the config is on the device. The disadvantage and where this differs from something like the [Stream Deck](https://www.elgato.com/us/en/p/stream-deck-mk2-black) is that you cannot have direct application integration via the background app. For example the Stream Deck can call scripts running locally on my computer or poll the CPU. (You probably could create some very fragile macro but meh) This led to some initial disappointment as one of the things I really wanted to use it for was to launch apps or browsers directly to a URL from the buttons.
+
+![So many inputs](/images/so_many_inputs.jpeg)
+
+
+
+#### Enter macOS Shortcuts 
+
+macOS has a feature “Shortcuts” you can pretty easily create shortcuts which can interact with most apps8 running on your computer. For example I wanted to map a key launch a browser that opens my company’s help desk. It’s simple enough to do with shortcuts. The next step is to assign a key mapping to that shortcut. It’s pretty to make a key combo that you’ll never likely use `<control>+<option>+<command>+h` for example. This is a very basic example as you can create very complex Shortcuts depending on your needs. This combined with [Choosy](https://choosy.app) is pretty powerful. *I'll have to write up something for Choosy later.
