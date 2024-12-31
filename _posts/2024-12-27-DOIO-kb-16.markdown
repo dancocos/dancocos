@@ -5,7 +5,7 @@ date:   2024-12-27 00:00:00 -0500
 categories: [home, desk, setup, keyboards]
 ---
 
-I was lucky enough to receive a [Megalodon Triple Knob Macropad](https://www.keebmonkey.com/products/megalodon-triple-knob-macro-pad?_pos=1&_psq=mega&_ss=e&_v=1.0) for Xmas from my brother in law. I was excited to set it up and start using it but information was more difficult to find than I had hoped and what I did find were mostly product reviews. Here is what I’ve learned from a day or two of using it with macOS.  There may be finer points that I missed so feel free to email me or comment on my post to give any advice or correct any errors. 
+I was lucky enough to receive a [Megalodon Triple Knob Macropad](https://www.keebmonkey.com/products/megalodon-triple-knob-macro-pad?_pos=1&_psq=mega&_ss=e&_v=1.0) for Xmas from my brother in law. I was excited to set it up and start using it but information was more difficult to find than I had hoped and what I did find were mostly product reviews. Here is what I’ve learned from a day or two of using it with macOS.  There may be finer points that I missed so feel free to email me or comment on [my post](https://discuss.systems/@dancocos/113749369299196279) to give any advice or correct any errors. 
 
 I use [Karabiner Elements](https://karabiner-elements.pqrs.org) with my [Keychron K6](https://www.keychron.com/products/keychron-k6-wireless-mechanical-keyboard) and I’ve been happy with it so I was hoping to tack on to that and not need to run another app. All roads and the suggestion from the manufacturer lead to VIA. 
 
