@@ -24,8 +24,9 @@ Workplaces will often have your computer connect via a VPN. This covers four thi
  
  * Lastly it allows them to control and see where you go online. This isn't really bad per se it's their computer they control it. 
 
- ## Home
- Using a VPN at home (or from a cafe) does the following. This makes a few assumptions again but is generally true.
+
+## Home
+Using a VPN at home (or from a cafe) does the following. This makes a few assumptions again but is generally true.
 
  * Funnels all of your traffic via a tunnel to the VPN sever, this hides where you are going from the cafe.
 
