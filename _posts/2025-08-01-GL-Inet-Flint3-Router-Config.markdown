@@ -5,7 +5,7 @@ date:   2025-08-01 00:00:00 -0500
 categories: [home network, wifi, router, security, configuration]
 ---
 
-I recently picked up the [Flint 3](https://www.gl-inet.com/products/gl-be9300/) router, running [OpenWrt](http://openwrt.org/) to replace my aging home networking gear. I didn't find a complete guide to basic configuration I'd deem manditory out of the box.
+I recently picked up the [Flint 3](https://www.gl-inet.com/products/gl-be9300/) router, running [OpenWrt](http://openwrt.org/), to replace my aging home networking gear. I didn't find a complete guide to basic configuration I'd deem manditory out of the box.
 
 The GL Inet "basic" interface is on ports 80/443 and the LuCI UI on 8080/8443. They seem to configue the same things just with different interfaces and different levels of details. On to enabling ssh with keys.
 
@@ -14,7 +14,7 @@ Using the LuCI interface you can add keys via the System --> Administraion menu.
 * Password authentication
 * Allow root logins with password
 * Allow the root user to log in with password
-* Allow remote hosts to connect to local SSH forwarded ports
+* Allow remote hosts to connect to local SSH forwarded ports (note this still allows Tailscale connections)
 
 On the SSH Keys tab you can, unsuprisingly add ssh keys.
 
@@ -24,7 +24,7 @@ Save and apply everything, you should now be able to ssh in with root@hostname
 
 Next up Tailscale and SSL Certs.
 
-The version of Tailscale supported by GL Inet/Openwrt isn't very current. Thanks to Admonistrator [Tailscale Update Script for GL.iNet Routers](https://github.com/Admonstrator/glinet-tailscale-updater) exists.
+The version of Tailscale supported by GL Inet/Openwrt isn't very current. Thanks to [Admonistrator](https://github.com/Admonstrator/) [Tailscale Update Script for GL.iNet Routers](https://github.com/Admonstrator/glinet-tailscale-updater) exists.
 
 After running the script and activating TS you can finally move on to generating SSL certs and configuring the web servers.
 
