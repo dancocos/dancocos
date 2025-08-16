@@ -14,7 +14,6 @@ Using the LuCI interface you can add keys via the System --> Administraion menu.
 * Password authentication
 * Allow root logins with password
 * Allow the root user to log in with password
-* Allow remote hosts to connect to local SSH forwarded ports (note this still allows Tailscale connections)
 
 On the SSH Keys tab you can, unsuprisingly add ssh keys.
 
@@ -24,9 +23,8 @@ Save and apply everything, you should now be able to ssh in with root@hostname
 
 Next up Tailscale and SSL Certs.
 
-The version of Tailscale supported by GL Inet/Openwrt isn't very current. Thanks to [Admonistrator](https://github.com/Admonstrator/) [Tailscale Update Script for GL.iNet Routers](https://github.com/Admonstrator/glinet-tailscale-updater) exists.
+Follow the instructions in my post [GL.iNet Tailscale Config](2025/08/16/gl-inet-tailscale-setup.html) before doing anyhing else with Tailscale.
 
-After running the script and activating TS you can finally move on to generating SSL certs and configuring the web servers.
 
 For the basic GL Inet web interface
 
@@ -61,7 +59,7 @@ cp /etc/uhttpd.key ~/
 
 Then copy the certs over and restart LuCI.
 ```
-  72 cp gl-be9300.EXAMPLE.ts.net.crt /etc/uhttpd.crt
-  73 cp gl-be9300.EXAMPLE.ts.net.key /etc/uhttpd.key
-  74 service uhttpd restart
+  cp gl-be9300.EXAMPLE.ts.net.crt /etc/uhttpd.crt
+  cp gl-be9300.EXAMPLE.ts.net.key /etc/uhttpd.key
+  service uhttpd restart
 ```
