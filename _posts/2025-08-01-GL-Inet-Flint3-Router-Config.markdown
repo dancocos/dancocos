@@ -23,43 +23,17 @@ Save and apply everything, you should now be able to ssh in with root@hostname
 
 Next up Tailscale and SSL Certs.
 
-Follow the instructions in my post [GL.iNet Tailscale Config](2025/08/16/gl-inet-tailscale-setup.html) before doing anyhing else with Tailscale.
+Follow the instructions in my post [GL.iNet Tailscale Config](/2025/08/16/gl-inet-tailscale-setup.html) before doing anyhing else with Tailscale.
 
 
-For the basic GL Inet web interface
+For the basic GL Inet web interface and the Luci interface I run the following commands, of course change gl-be9300.EXAMPLE.ts.net to your host name.
 
 ```
 /usr/sbin/tailscale cert gl-be9300.EXAMPLE.ts.net
-cp gl-be9300.EXAMPLE.ts.net* /etc/nginx/
-ls -al /etc/nginx/
-vim /etc/nginx/conf.d/gl.conf
-```
-
-Change the following lines in the file to point your cert/key files (around line 21/22)
-```
-    ssl_certificate /etc/nginx/gl-be9300.EXAMPLE.ts.net.crt;
-    ssl_certificate_key /etc/nginx/gl-be9300.EXAMPLE.ts.net.key;
-```
-
-Now check your nginx config with `nginx -t` you should see the following
-```
-nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
-nginx: configuration file /etc/nginx/nginx.conf test is successful
-```
-
-If test doesn't show any problems then restart nginx `service nginx restart`
-
-For the Advanced/LuCI interface
-
-First backup the current key and cert just incase you screw something up.
-```
-cp /etc/uhttpd.crt ~/
-cp /etc/uhttpd.key ~/
-```
-
-Then copy the certs over and restart LuCI.
-```
-  cp gl-be9300.EXAMPLE.ts.net.crt /etc/uhttpd.crt
-  cp gl-be9300.EXAMPLE.ts.net.key /etc/uhttpd.key
-  service uhttpd restart
+cp gl-be9300.EXAMPLE.ts.net.crt /etc/nginx/nginx.cer
+cp gl-be9300.EXAMPLE.ts.net.key /etc/nginx/nginx.key
+service nginx restart
+cp gl-be9300.EXAMPLE.ts.net.crt /etc/uhttpd.crt
+cp gl-be9300.EXAMPLE.ts.net.key /etc/uhttpd.key
+service uhttpd restart
 ```
