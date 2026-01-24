@@ -5,7 +5,7 @@ date:   2025-08-01 00:00:00 -0500
 categories: [home network, wifi, router, security, configuration]
 ---
 
-I recently picked up the [Flint 3](https://www.gl-inet.com/products/gl-be9300/) router, running [OpenWrt](http://openwrt.org/), to replace my aging home networking gear. I didn't find a complete guide to basic configuration I'd deem manditory out of the box.
+I recently picked up the [Flint 3](https://www.gl-inet.com/products/gl-be9300/) router, to replace my aging home networking gear. I didn't find a complete guide to basic configuration I'd deem manditory out of the box.
 
 The GL Inet "basic" interface is on ports 80/443 and the LuCI UI on 8080/8443. They seem to configue the same things just with different interfaces and different levels of details. On to enabling ssh with keys.
 

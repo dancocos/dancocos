@@ -6,7 +6,7 @@ categories: [tailscale, home network, wifi, router, security, configuration]
 ---
 # I added an [update](#update) at the end
 
-I recently picked up the [Flint 3](https://www.gl-inet.com/products/gl-be9300/) router, running [OpenWrt](http://openwrt.org/) and a [Slate 7](https://www.gl-inet.com/products/gl-be3600/) to replace my aging Asus networking gear.
+I recently picked up the [Flint 3](https://www.gl-inet.com/products/gl-be9300/) router, and a [Slate 7](https://www.gl-inet.com/products/gl-be3600/) to replace my aging Asus networking gear.
 
 
 One thing I find incredibly frustrating is the lack of clear documentation of how to configure the Flint 3 as the primary and the Slate 7 as the secondary.
@@ -34,4 +34,4 @@ I went back to WDS mode mostly because I want everything on same subnet and I wa
 */10 * * * * /bin/ping -c 1 192.168.50.1 || (/sbin/wifi down && /sbin/wifi up)
 
 ```
-The only downside I've seen so far is that I can't connect via ssh or https over Tailscale despite the fact that it is running on the Slate and I can see in the console. 🤷‍♂️ If anyone knows how to make that work it would be much appreciated.
+The only downside I've seen so far is that I can't connect via ssh or https over Tailscale despite the fact that it is running on the Slate and I can see in the console. 🤷‍♂️ If anyone knows how to make that work it would be much appreciated. Update I can get there via local IP.    
