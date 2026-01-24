@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tailscale Service Jellyfin Proxy"
-date:   2025-11-11 2:00:00 -0500
+date:   2026-01-24 2:00:00 -0500
 categories: [security, configuration, dns, privacy, tailscale]
 ---
 
